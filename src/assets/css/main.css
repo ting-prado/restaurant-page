@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'handwritten';
+    src: url(../PatrickHand-Regular.ttf);
+}
+
+#content {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#home {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 78.5%;
+    height: 100vh;
+    background: url('../wp8855492-anime-restaurant-wallpapers.png') no-repeat;
+    background-position: bottom right;
+}
+
+#nav-bar {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 21.5%;
+    background: url('../wood.png');
+    text-align: center;
+    color: beige;
+    font-family: 'handwritten';
+}
+
+#nav-choices {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-choices a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#slogan {
+    margin-left: -2em;
+    padding-top: 1%;
+    filter: hue-rotate(-5deg);
+}
+
+.about {
+    margin: 25% auto 0 auto;
+    width: 40em;
+    height: 10em;
+    background: rgba(196, 129, 41, 0.1);
+    box-shadow: -8px 8px rgba(5, 5, 4, 0.1);
+}
