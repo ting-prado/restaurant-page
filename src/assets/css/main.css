@@ -1,55 +1,82 @@
 @font-face {
     font-family: 'handwritten';
-    src: url(../PatrickHand-Regular.ttf);
+    src: url('../PatrickHand-Regular.ttf');
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
 #content {
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
+    background: url('../wood.png');
 }
 
 #home {
     box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background: url('../curve.png') no-repeat;
+    background-position: left 90%;
+}
+
+#sidebar {
+    box-sizing: border-box;
+    height: 100vh;
     position: absolute;
     top: 0;
     right: 0;
-    width: 78.5%;
-    height: 100vh;
-    background: url('../wp8855492-anime-restaurant-wallpapers.png') no-repeat;
-    background-position: bottom right;
-}
-
-#nav-bar {
-    box-sizing: border-box;
-    height: 100vh;
-    width: 21.5%;
-    background: url('../wood.png');
-    text-align: center;
-    color: beige;
-    font-family: 'handwritten';
-}
-
-#nav-choices {
     display: flex;
     flex-direction: column;
 }
 
-#nav-choices a {
-    text-decoration: none;
-    color: inherit;
-}
-
 #slogan {
-    margin-left: -2em;
-    padding-top: 1%;
-    filter: hue-rotate(-5deg);
+    margin-right: -1.2rem;
 }
 
-.about {
-    margin: 25% auto 0 auto;
-    width: 40em;
-    height: 10em;
-    background: rgba(196, 129, 41, 0.1);
-    box-shadow: -8px 8px rgba(5, 5, 4, 0.1);
+.border {
+    border-top: 1px solid rgb(29, 14, 0);
+    border-bottom: 1px solid rgb(29, 14, 0);
+    position: absolute;
+    width: 105%;
+    height: 12%;
+    top: 35%;
+    left: 0.1em;
+    transform: skew(9deg);
 }
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(29, 14, 0);
+    margin: 4% 6%;
+    font-size: 1.5rem;
+    font-family: 'handwritten', sans-serif;
+}
+
+#navbar a:hover {
+    color: burlywood;
+}
+
+#ramen {
+    width: 95%;
+    height: 75%;
+    bottom: -25.5%;
+    right: 0;
+    position: absolute;
+}
+
+#hours {
+    margin-top: 5%;
+    width: 60%;
+    align-self: center;
+    box-shadow: 5px 5px 2px 1px rgb(37, 21, 0);
+    z-index: 1;
+}
+
