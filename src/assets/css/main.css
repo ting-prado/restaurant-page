@@ -1,82 +1,17 @@
-@font-face {
-    font-family: 'handwritten';
-    src: url('../PatrickHand-Regular.ttf');
-}
-
 html, body {
     margin: 0;
     height: 100%;
     overflow: hidden;
 }
 
-#content {
-    background: url('../wood.png');
+#navbar {
+    
 }
 
-#home {
-    box-sizing: border-box;
+#homepage {
     width: 100%;
     height: 100vh;
-    background: url('../curve.png') no-repeat;
-    background-position: left 90%;
+    background: url('../bg_enhanced.jpg') no-repeat;
+    background-position: center 100%;
+    background-size: cover;
 }
-
-#sidebar {
-    box-sizing: border-box;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-#slogan {
-    margin-right: -1.2rem;
-}
-
-.border {
-    border-top: 1px solid rgb(29, 14, 0);
-    border-bottom: 1px solid rgb(29, 14, 0);
-    position: absolute;
-    width: 105%;
-    height: 12%;
-    top: 35%;
-    left: 0.1em;
-    transform: skew(9deg);
-}
-
-#navbar {
-    display: flex;
-    justify-content: center;
-    z-index: 1;
-}
-
-#navbar a {
-    text-decoration: none;
-    color: rgb(29, 14, 0);
-    margin: 4% 6%;
-    font-size: 1.5rem;
-    font-family: 'handwritten', sans-serif;
-}
-
-#navbar a:hover {
-    color: burlywood;
-}
-
-#ramen {
-    width: 95%;
-    height: 75%;
-    bottom: -25.5%;
-    right: 0;
-    position: absolute;
-}
-
-#hours {
-    margin-top: 5%;
-    width: 60%;
-    align-self: center;
-    box-shadow: 5px 5px 2px 1px rgb(37, 21, 0);
-    z-index: 1;
-}
-
