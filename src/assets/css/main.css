@@ -48,25 +48,27 @@ html, body {
 }
 
 #logo {
-    width: 39%;
-    height: 39%;
-    margin-top: 2.6rem;
-    margin-left: 8.1rem;
+    width: 30%;
+    height: 30%;
+    margin-top: 5rem;
+    margin-left: 12rem;
 }
 
 #desc {
-    width: 30rem;
+    width: 26rem;
     height: 10rem;
     font-family: 'japanese', arial;
     text-align: center;
     color: #640e27;
-    font-size: 0.85rem;
-    margin-left: 9.6rem;
+    font-size: 0.80rem;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #food {
-    width: 35%;
-    height: 55%;
-    margin-left: 10rem;
-    margin-top: -2.8rem;
+    width: 30%;
+    height: 50%;
+    margin-left: 12.5rem;
+    margin-top: -2.7rem;
 }
