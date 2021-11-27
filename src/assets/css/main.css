@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'japanese';
+    src: url('../Noto_Sans_JP/NotoSansJP-Regular.otf');
+}
+
 html, body {
     margin: 0;
     height: 100%;
@@ -15,10 +20,17 @@ html, body {
     align-items: center;
 }
 
+#nav-logo {
+    width: 5%;
+    height: 150%;
+    margin-left: 9rem;
+}
+
 #navbar a {
     text-decoration: none;
     color: black;
     margin: 0 2.5rem;
+    font-family: 'japanese', arial;
 }
 
 #navbar a:hover {
@@ -31,4 +43,30 @@ html, body {
     background: url('../bg_enhanced.jpg') no-repeat;
     background-position: center 100%;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 39%;
+    height: 39%;
+    margin-top: 2.5rem;
+    margin-left: 8.1rem;
+}
+
+#desc {
+    width: 30rem;
+    height: 10rem;
+    font-family: 'japanese', arial;
+    text-align: center;
+    color: #640e27;
+    font-size: 0.85rem;
+    margin-left: 9.6rem;
+}
+
+#food {
+    width: 35%;
+    height: 55%;
+    margin-left: 10rem;
+    margin-top: -2.5rem;
 }
