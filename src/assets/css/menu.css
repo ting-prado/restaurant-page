@@ -52,6 +52,7 @@
     background: url('../menupage-bg.jpg');
     background-size: cover;
     background-position: center 100%;
+    overflow-x: hidden;
 }
 
 #menudiv {
@@ -109,21 +110,74 @@
 #special-ramen {
     width: 25%;
     height: 19%;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     margin-left: 6rem;
 }
 
 #ramen {
     display: inline-block;
     position: relative;
-    bottom: 2.3rem;
-    z-index: 1;
+    bottom: 3.5rem;
 }
 
 #african-ramen {
     width: 24%;
     height: 20%;
     position: relative;
-    top: 1rem;
+    bottom: 0.5rem;
 }
 
+#curry-rice {
+    width: 27%;
+    height: 13%;
+    left: 18rem;
+    bottom: 2rem;
+    position: relative;
+    transform: scaleX(-1);
+}
+
+#pork {
+    position: absolute;
+    right: 14rem;
+    bottom: 43rem;
+    width: 22%;
+    height: 20%;
+}
+
+#curry {
+    margin: -5rem 0 0 3rem;
+}
+
+#terrine {
+    width: 30%;
+    height: 15%;
+    position: relative;
+    left: 23rem;
+    bottom: 8rem;
+}
+
+#appetizer {
+    position: absolute;
+    right: 5rem;
+    bottom: 35.7rem;
+}
+
+#dumpling {
+    position: relative;
+    left: 14rem;
+    top: -10rem; 
+}
+
+#drinks {
+    position: relative;
+    left: 30rem;
+    top: -8rem;
+}
+
+#tea {
+    width: 30%;
+    height: 25%;
+    position: absolute;
+    bottom: 5.5rem;
+    left: 12rem;
+}
