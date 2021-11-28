@@ -3,6 +3,16 @@
     src: url('../Noto_Sans_JP/NotoSansJP-Regular.otf');
 }
 
+@font-face {
+    font-family: 'handwritten';
+    src: url('../PatrickHand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'handwritten cursive';
+    src: url('../Pumpkin\ Story.ttf');
+}
+
 #navbar {
     position: absolute;
     background: #f1ba8a;
@@ -34,7 +44,86 @@
 
 #menupage {
     width: 100%;
-    height: 100vh;
-    border: 1px solid black;
+    height: auto;
+    position: absolute;
+    top: 0;
+    z-index: -1;
     box-sizing: border-box;
+    background: url('../menupage-bg.jpg');
+    background-size: cover;
+    background-position: center 100%;
 }
+
+#menudiv {
+    border: 10px solid #ffb380;
+    border-radius: 10px;
+    margin: 6rem auto 4rem auto;
+    width: 80%;
+    height: 82rem;
+    position: relative;
+}
+
+#menudiv::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../menu-bg.png');
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#menudiv p {
+    font-family: 'handwritten', sans-serif;
+    font-size: 24px;
+    color: #640e37;
+    margin-left: 0.5rem;
+    border-left: 2px solid rgb(255, 144, 0);
+    padding-left: 0.2rem;
+}
+
+#menudiv h1 {
+    font-family: 'handwritten cursive', cursive;
+    font-size: 50px;
+    color: rgb(165 1 56);
+}
+
+#donburi {
+    margin: 3rem 0 0 16rem;
+    width: 20rem;
+    padding-left: 0.2rem;
+    display: inline-block;
+}
+
+#chicken-don {
+    width: 22%;
+    height: 13%;
+    position: relative;
+    top: 1.5rem;
+    left: 0.5rem;
+}
+
+#special-ramen {
+    width: 25%;
+    height: 19%;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+}
+
+#ramen {
+    display: inline-block;
+    position: relative;
+    bottom: 2.3rem;
+    z-index: 1;
+}
+
+#african-ramen {
+    width: 24%;
+    height: 20%;
+    position: relative;
+    top: 1rem;
+}
+

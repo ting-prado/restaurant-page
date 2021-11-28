@@ -1,5 +1,3 @@
-import './assets/css/main.css';
-import './assets/css/reset.css';
 import small_logo from './assets/small-logo.png';
 
 const makeNav = () => {
@@ -11,6 +9,7 @@ const makeNav = () => {
     const navlogo = new Image();
     navlogo.src = small_logo;
     navlogo.id = 'nav-logo';
+    navlogo.alt = 'yukihira diner small logo';
     const home = document.createElement('a');
     home.setAttribute('href', '#');
     home.classList.add('home');
