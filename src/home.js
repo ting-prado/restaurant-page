@@ -11,7 +11,7 @@ const loadHome = () => {
     homelogo.alt = 'yukihira diner homepage logo';
     const description = document.createElement('p');
     description.id = 'desc';
-    description.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel semper erat. Etiam placerat pretium nulla eu auctor. In lorem neque, mollis quis sagittis nec, lacinia sit amet est. Nullam sed convallis nulla. Mauris faucibus tincidunt posuere. Nam sollicitudin nunc et erat consectetur dictum. Fusce blandit, felis eu convallis luctus, ligula magna pretium justo, a tincidunt dolor diam quis purus.';
+    description.textContent = 'Yukihira pushes the envelope of japanese cuisine. Taking its influences from our team members\'s culinary roots, Yukihira blends traditional and innovative techniques to create unique offerings using local ingredients in all of its dishes. Yukihira is grounded in hospitality with our staff\'s commitment to providing you with a memorable experience each time you walk through our door.';
     const foodImg = new Image();
     foodImg.src = food;
     foodImg.id = 'food';
