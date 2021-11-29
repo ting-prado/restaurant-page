@@ -1,6 +1,8 @@
 import './assets/css/main.css';
+import './assets/css/menu.css';
 import './assets/css/reset.css';
 import loadHome from './home';
+import loadMenu from './menu';
 import makeNav from './navbar';
 
 makeNav();
@@ -14,3 +16,6 @@ loadHome();
 
 const home = document.querySelector('.home');
 home.addEventListener('click', loadHome);
+
+const menu = document.querySelector('.menu');
+menu.addEventListener('click', loadMenu);
