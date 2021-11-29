@@ -99,10 +99,10 @@
 }
 
 #curry-rice {
-    width: 27%;
+    width: 28%;
     height: 13%;
     left: 18rem;
-    bottom: 2rem;
+    bottom: 2.5rem;
     position: relative;
     transform: scaleX(-1);
 }
