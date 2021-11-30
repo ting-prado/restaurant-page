@@ -1,9 +1,11 @@
 import './assets/css/main.css';
 import './assets/css/home.css';
 import './assets/css/menu.css';
+import './assets/css/contact.css';
 import './assets/css/reset.css';
 import loadHome from './home';
 import loadMenu from './menu';
+import loadContact from './contact';
 import makeNav from './navbar';
 
 makeNav();
@@ -20,3 +22,6 @@ home.addEventListener('click', loadHome);
 
 const menu = document.querySelector('.menu');
 menu.addEventListener('click', loadMenu);
+
+const contact = document.querySelector('.contact');
+contact.addEventListener('click', loadContact);

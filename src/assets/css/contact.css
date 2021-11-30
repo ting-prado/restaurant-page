@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'japanese';
+    src: url('../Noto_Sans_JP/NotoSansJP-Regular.otf');
+}
+
+@font-face {
+    font-family: 'handwritten cursive';
+    src: url('../Pumpkin\ Story.ttf');
+}
+
+@font-face {
+    font-family: 'handwritten';
+    src: url('../PatrickHand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'satisfy';
+    src: url('../Satisfy-Regular.ttf');
+}
+
+#contactpage {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background: url('../contact-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+#contactDiv {
+    width: 100%;
+    height: 46rem;
+    background: rgba(255, 221, 169, 0.658);
+    margin-bottom: 2rem;
+}
+
+#contact-text {
+    margin: 3.5rem 0 1rem 0;
+    text-align: center;
+}
+
+#contact-text h1 {
+    font-family: 'handwritten cursive', sans-serif;
+    font-size: 64px;
+    color: maroon;
+}
+
+#contact-text p {
+    font-family: 'handwritten', cursive;
+    font-size: 18px;
+    color:#5c1900;
+}
+
+#form-info {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#form {
+    border: 1px solid #623200;
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    top: 2rem;
+    font-family: 'japanese', arial;
+    border-radius: 5px;
+    background: url('../info-bg.png');
+    background-size: contain;
+}
+
+.text-inputs {
+    margin: 0.5rem;
+    width: 12rem;
+    font-family: inherit;
+    border: 1px solid #623200;
+    outline: #623200;
+}
+
+#form textarea {
+    margin-left: 0.5rem;
+    margin-bottom: 0.25rem;
+    margin-right: 0.5rem;
+    width: 25.5rem;
+    font-family: inherit;
+    border: 1px solid #623200;
+    outline: #623200;
+}
+
+#submit {
+    font-family: inherit;
+    width: 10rem;
+    margin: 0.25rem 0.5rem 0.5rem 16.4rem;
+    border: 1px solid #623200;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#submit:hover {
+    border-radius: 5px;
+    background: goldenrod;
+    cursor: pointer;
+}
+
+#info {
+    box-sizing: border-box;
+    border: 1px solid #623200;
+    border-radius: 5px;
+    width: 21.5rem;
+    height: 14rem;
+    background: url('../info-bg.png');
+    background-size: cover;
+    background-position: left 100%;
+    margin-left: 2rem;
+}
+
+#info-heading {
+    font-family: 'handwritten cursive', cursive;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.3;
+    color: maroon;
+    border-bottom: 1px solid #623200;
+}
+
+.info-text {
+    text-align: center;
+    font-family: 'handwritten', sans-serif;
+    font-size: 26px;
+    color: maroon;
+}
+
+.info-text-top {
+    margin-top: 1.2rem;
+}
+
+.info-text-space {
+    height: 1.2rem;
+}
+
+.mapouter{
+    position: relative;
+    text-align: right;
+    height: 250px;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gmap_canvas{
+    height: 250px;
+    width: 780px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 250px;
+    width: 780px;
+    margin-top: 1rem;
+}
+
+#hours {
+    text-align: center;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+}
+
+#hours-heading {
+    font-size: 36px;
+    font-family: 'satisfy', cursive;
+    border-bottom: 2px solid rgb(255, 144, 0);
+    color: rgb(165 1 56);
+    font-weight: bolder;
+    padding-bottom: 0.25rem;
+}
+
+.hours-text {
+    font-family: 'satisfy', cursive;
+    font-size: 24px;
+    color: rgb(165 1 56);
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.hours-time {
+    border-top: 1px solid rgb(255, 144, 0);
+}
