@@ -7,9 +7,14 @@ import loadHome from './home';
 import loadMenu from './menu';
 import loadContact from './contact';
 import makeNav from './navbar';
+import icon from './assets/small-logo.png';
 
 makeNav();
 
+const favicon = document.createElement('link');
+favicon.href = icon;
+favicon.rel = 'shortcut icon';
+document.getElementsByTagName('head')[0].appendChild(favicon);
 const content = document.querySelector('#content');
 const currentPage = document.createElement('div');
 currentPage.classList.add('currentPage');
