@@ -1,7 +1,7 @@
 # Restaurant Page
 
 ## Introduction
-This project is meant for applying and practicing what's been learned so far in npm, webpack, and ES6 modules lesson by creating a restaurant page. The contents of the page will be generated using JavaScript alone. For now, the page is designed for PC and doesn't look good in mobile.
+This project is meant for applying and practicing what's been learned so far in npm, webpack, and ES6 modules lesson by creating a restaurant page. The contents of the page will be generated using JavaScript alone.
 
 ## Goals and Objectives
 

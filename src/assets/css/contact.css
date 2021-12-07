@@ -189,3 +189,49 @@
 .hours-time {
     border-top: 1px solid rgb(255, 144, 0);
 }
+
+@media (max-width: 1024px){
+    #contactpage {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #contactDiv {
+        display: flex;
+        flex-direction: column;
+        height: 72%;
+    }
+
+    #contact-text h1{ 
+        font-size: 500%;
+    }
+
+    #contact-text p {
+        font-size: 250%;
+    }
+
+    .mapouter{
+        height: 400px;
+        width: 100%;
+    }
+    
+    #gmap_canvas{
+        height: 400px;
+        width: 100%;
+    }
+    
+    .gmap_canvas {
+        height: 400px;
+        width: 100%;
+    }
+
+    #form-info {
+        margin-top: 2rem;
+    }
+
+    #hours h1, #hours p {
+        font-size: 250%;
+    }
+}

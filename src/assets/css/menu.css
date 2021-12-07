@@ -152,3 +152,24 @@
     bottom: 5.5rem;
     left: 12rem;
 }
+
+@media (max-width: 1024px), (min-height: 1366px) {
+    #menudiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15rem;
+    }
+    
+    #menupage img {
+        display: none;
+    }
+
+    #menudiv div {
+        margin: 0;
+        position: static;
+        margin-top: 2rem;
+        margin-left: 5rem
+    }
+}

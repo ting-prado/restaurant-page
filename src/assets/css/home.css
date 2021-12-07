@@ -4,7 +4,7 @@
 }
 
 #homepage {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: url('../bg_enhanced.jpg') no-repeat;
     background-position: center 100%;
@@ -38,4 +38,32 @@
     height: 50%;
     margin-left: 12.5rem;
     margin-top: -2.7rem;
+}
+
+@media (max-width: 1023px), (min-height: 1366px) {
+    #homepage {
+        background-position: left 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo {
+        padding-top: 4rem;
+        width: 50rem;
+        height: 25rem;
+        margin: 2rem 0;
+    }
+
+    #desc {
+        font-size: 1.5rem;
+        width: 65%;
+        margin: 0;
+        padding-left: 4rem;
+    }
+
+    #food {
+        width: 50rem;
+        height: 47rem;
+        margin: 0;
+    }
 }
