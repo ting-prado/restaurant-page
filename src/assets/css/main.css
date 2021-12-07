@@ -32,7 +32,7 @@
     color: rgb(196, 46, 46);
 }
 
-@media (max-width: 800px), (min-height: 1366px) {
+@media (max-width: 1023px), (min-height: 1366px) {
     #navbar {
         justify-content: center;
         padding: 1rem 0;
@@ -41,7 +41,7 @@
     #nav-logo {
         width: 8%;
         height: 180%;
-        margin-left: 0;
+        margin-left: 10%;
     }
 
     #navbar a {

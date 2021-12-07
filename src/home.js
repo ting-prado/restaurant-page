@@ -5,6 +5,10 @@ const loadHome = () => {
     const currentPage = document.querySelector('.currentPage');
     currentPage.innerHTML = '';
     currentPage.id = 'homepage';
+
+    //contents
+    const homeDiv = document.createElement('div');
+    homeDiv.id = 'homeDiv';
     const homelogo = new Image();
     homelogo.src = large_logo;
     homelogo.id = 'logo';
@@ -16,9 +20,10 @@ const loadHome = () => {
     foodImg.src = food;
     foodImg.id = 'food';
     foodImg.alt = 'home food image';
-    currentPage.appendChild(homelogo);
-    currentPage.appendChild(description);
-    currentPage.appendChild(foodImg);
+    currentPage.appendChild(homeDiv);
+    homeDiv.appendChild(homelogo);
+    homeDiv.appendChild(description);
+    homeDiv.appendChild(foodImg);
 }
 
 export default loadHome;

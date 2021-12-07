@@ -9,61 +9,71 @@
     background: url('../bg_enhanced.jpg') no-repeat;
     background-position: center 100%;
     background-size: cover;
+    overflow: hidden;
+}
+
+#homeDiv {
+    padding-top: 1rem;
+    width: 50%;
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.3rem;
 }
 
 #logo {
-    width: 30%;
+    width: 60%;
     height: 30%;
-    margin-top: 5rem;
-    margin-left: 12rem;
 }
 
 #desc {
     width: 26rem;
-    height: 10rem;
+    height: 15%;
     font-family: 'japanese', arial;
     text-align: center;
     color: #640e27;
     font-size: 0.80rem;
-    margin-left: 12rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 #food {
-    width: 30%;
-    height: 50%;
-    margin-left: 12.5rem;
-    margin-top: -2.7rem;
+    width: 60%;
+    height: 40%;
 }
 
-@media (max-width: 800px), (min-height: 1366px) {
+@media (max-width: 1023px), (min-height: 1366px) {
     #homepage {
         background-position: left 50%;
-        align-items: center;
-        justify-content: center;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #homeDiv {
+        width: 100vw;
+        margin: 0;
+        height: auto;
+        padding-top: 20%;
     }
 
     #logo {
-        padding-top: 4rem;
-        width: 50rem;
-        height: 25rem;
+        width: 70%;
+        height: 25%;
         margin: 2rem 0;
     }
 
     #desc {
-        font-size: 1.5rem;
-        width: 65%;
-        margin: 0;
+        font-size: 1.6rem;
+        width: 70%;
+        margin: 2rem 0;
         padding-left: 4rem;
     }
 
     #food {
-        width: 50rem;
-        height: 47rem;
-        margin: 0;
+        width: 75%;
+        height: 38%;
+        margin: 2rem 0;
     }
 }
