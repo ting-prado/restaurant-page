@@ -11,7 +11,7 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #logo {
@@ -40,7 +40,7 @@
     margin-top: -2.7rem;
 }
 
-@media (max-width: 1023px), (min-height: 1366px) {
+@media (max-width: 800px), (min-height: 1366px) {
     #homepage {
         background-position: left 50%;
         align-items: center;
