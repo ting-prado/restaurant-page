@@ -190,7 +190,7 @@
     border-top: 1px solid rgb(255, 144, 0);
 }
 
-@media (max-width: 800px), (min-height: 1366px){
+@media (max-width: 1023px), (min-height: 1366px){
     #contactpage {
         height: 100vh;
         display: flex;
@@ -204,7 +204,6 @@
         justify-content: space-evenly;
         height: 72%;
     }
-
 
     .mapouter{
         height: 400px;
