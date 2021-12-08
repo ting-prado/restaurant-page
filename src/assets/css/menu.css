@@ -159,7 +159,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-bottom: 15rem;
+        padding-bottom: 12%;
+        padding-left: 5%;
+        height: 100%;
+        margin: 0;
+    }
+
+    #menupage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
     }
     
     #menupage img {
@@ -167,9 +177,8 @@
     }
 
     #menudiv div {
-        margin: 0;
         position: static;
-        margin-top: 2rem;
-        margin-left: 5rem
+        margin-top: 1.5rem;
+        margin-left: 5rem;
     }
 }
