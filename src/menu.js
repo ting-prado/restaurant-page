@@ -15,6 +15,10 @@ const loadMenu = () => {
     menuDiv.id = 'menudiv';
     currentPage.appendChild(menuDiv);
 
+    const menucontent = document.createElement('div');
+    menucontent.id = 'menucontent';
+    menuDiv.appendChild(menucontent);
+
     //donburi
     const donburi = document.createElement('div');
     donburi.id = 'donburi';
@@ -24,7 +28,7 @@ const loadMenu = () => {
     donburiImg.src = chickenDon;
     donburiImg.id = 'chicken-don';
     donburiImg.alt = 'chicken egg tempura don';
-    menuDiv.appendChild(donburi);
+    menucontent.appendChild(donburi);
     donburi.appendChild(donburiH1);
     for(let i=1; i<=4; i++) {
         const donburiP = document.createElement('p');
@@ -44,7 +48,7 @@ const loadMenu = () => {
         }
         donburi.appendChild(donburiP);
     }
-    menuDiv.appendChild(donburiImg);
+    menucontent.appendChild(donburiImg);
 
     //ramen
     const ramenImg1 = new Image();
@@ -60,8 +64,8 @@ const loadMenu = () => {
     ramen.id = 'ramen';
     const ramenH1 = document.createElement('h1');
     ramenH1.textContent = 'Ramen';
-    menuDiv.appendChild(ramenImg1);
-    menuDiv.appendChild(ramen);
+    menucontent.appendChild(ramenImg1);
+    menucontent.appendChild(ramen);
     ramen.appendChild(ramenH1);
     for(let i=1; i<=6; i++) {
         const ramenP = document.createElement('p');
@@ -87,7 +91,7 @@ const loadMenu = () => {
         }
         ramen.appendChild(ramenP);
     }
-    menuDiv.appendChild(ramenImg2);
+    menucontent.appendChild(ramenImg2);
 
     //mid images
     const curryImg = new Image();
@@ -98,15 +102,15 @@ const loadMenu = () => {
     porkImg.src = pork;
     porkImg.id = 'pork';
     porkImg.alt = 'holding pork with chopsticks';
-    menuDiv.appendChild(curryImg);
-    menuDiv.appendChild(porkImg);
+    menucontent.appendChild(curryImg);
+    menucontent.appendChild(porkImg);
 
     //curry
     const curry = document.createElement('div');
     curry.id = 'curry';
     const curryH1 = document.createElement('h1');
     curryH1.textContent = 'Curry';
-    menuDiv.appendChild(curry);
+    menucontent.appendChild(curry);
     curry.appendChild(curryH1);
     for(let i=1; i<=6; i++) {
         const curryP = document.createElement('p');
@@ -138,14 +142,14 @@ const loadMenu = () => {
     terrineImg.src = terrine;
     terrineImg.id = 'terrine';
     terrineImg.alt = 'rainbow terrine';
-    menuDiv.appendChild(terrineImg);
+    menucontent.appendChild(terrineImg);
 
     //appetizer
     const appetizer = document.createElement('div');
     appetizer.id = 'appetizer';
     const appetizerH1 = document.createElement('h1');
     appetizerH1.textContent = 'Appetizer';
-    menuDiv.appendChild(appetizer);
+    menucontent.appendChild(appetizer);
     appetizer.appendChild(appetizerH1);
     for(let i=1; i<=5; i++) {
         const appetizerP = document.createElement('p');
@@ -174,7 +178,7 @@ const loadMenu = () => {
     dumpling.id = 'dumpling';
     const dumplingH1 = document.createElement('h1');
     dumplingH1.textContent = 'Dumpling';
-    menuDiv.appendChild(dumpling);
+    menucontent.appendChild(dumpling);
     dumpling.appendChild(dumplingH1);
     for(let i=1; i<=4; i++) {
         const dumplingP = document.createElement('p');
@@ -200,7 +204,7 @@ const loadMenu = () => {
         drinks.id = 'drinks';
         const drinksH1 = document.createElement('h1');
         drinksH1.textContent = 'Drinks';
-        menuDiv.appendChild(drinks);
+        menucontent.appendChild(drinks);
         drinks.appendChild(drinksH1);
         for(let i=1; i<=4; i++) {
             const drinksP = document.createElement('p');
@@ -227,7 +231,7 @@ const loadMenu = () => {
         drinksImg.src = tea;
         drinksImg.id = 'tea';
         drinksImg.alt = 'milk teas';
-        menuDiv.appendChild(drinksImg);
+        menucontent.appendChild(drinksImg);
 }
 
 export default loadMenu;

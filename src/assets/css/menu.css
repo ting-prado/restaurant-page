@@ -15,7 +15,7 @@
 
 #menupage {
     width: 100%;
-    height: auto;
+    height: 100vh;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -48,7 +48,7 @@
     opacity: 0.7;
 }
 
-#menudiv p {
+#menucontent p {
     font-family: 'handwritten', sans-serif;
     font-size: 24px;
     color: #640e37;
@@ -57,7 +57,7 @@
     padding-left: 0.2rem;
 }
 
-#menudiv h1 {
+#menucontent h1 {
     font-family: 'handwritten cursive', cursive;
     font-size: 50px;
     color: rgb(165 1 56);
@@ -74,7 +74,7 @@
     width: 22%;
     height: 13%;
     position: relative;
-    top: 1.5rem;
+    top: 2.5rem;
     left: 0.5rem;
 }
 
@@ -153,32 +153,35 @@
     left: 12rem;
 }
 
-@media (max-width: 1239px), (min-height: 1366px) {
+@media (max-width: 1239px), (min-height: 1366px) { 
     #menudiv {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 12%;
-        padding-left: 5%;
-        height: 100%;
-        margin: 0;
+        min-height: 90%;
     }
 
-    #menupage {
+    #menucontent {
+        margin: 6% 4% 0 24%;
+        height: 83.5%;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
     }
-    
-    #menupage img {
+
+    #menucontent img {
         display: none;
     }
 
-    #menudiv div {
+    #menucontent div {
         position: static;
-        margin-top: 1.5rem;
-        margin-left: 5rem;
+        margin: 0;
+        width: auto;
+    }
+
+    #menucontent div h1 {
+        font-size: 180%;
+    }
+
+    #menucontent div p {
+        font-size: 160%;
     }
 }
