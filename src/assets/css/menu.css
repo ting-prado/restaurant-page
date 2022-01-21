@@ -63,6 +63,10 @@
     color: rgb(165 1 56);
 }
 
+#menucontent div {
+    z-index: 1;
+}
+
 #donburi {
     margin: 3rem 0 0 16rem;
     width: 20rem;
